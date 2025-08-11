@@ -3,13 +3,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: advent-of-code-2021
+  links:
+    - url: https://adventofcode.com/2021
+      title: Advent of Code 2021
+      type: proposition
 spec:
   type: application
   lifecycle: production
   owner: developers
   dependsOn:
     - component:default/advent-of-code-2020
-  links:
-    - url: https://adventofcode.com/2021
-      title: Advent of Code 2021
-      type: proposition
