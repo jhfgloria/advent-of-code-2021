@@ -7,6 +7,8 @@ metadata:
     - url: https://adventofcode.com/2021
       title: Advent of Code 2021
       type: proposition
+  tags:
+    - rust
 spec:
   type: application
   lifecycle: production
